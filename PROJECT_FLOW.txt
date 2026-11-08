@@ -1,0 +1,19 @@
+Project: Automatic Short-Video Summarization Using Deep Learning
+Student: DAYANANDA
+Register No.: 8080152
+
+Architecture:
+1. Input video
+2. OpenCV frame sampling
+3. MobileNetV2 pretrained CNN feature extraction
+4. Segment-level importance scoring
+   - 80% visual feature novelty
+   - 20% frame motion
+5. Greedy non-overlapping segment selection
+6. Summary video generation
+7. Timestamp and thumbnail display
+
+Expected output:
+- Shortened MP4 video
+- Selected start/end timestamps
+- Representative thumbnails
